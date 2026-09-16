@@ -1,1 +1,21 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
 
+#game_canvas {
+    display: inline;
+}
+
+#map_img {
+    display: none;
+}
+
+#chosen_place_txt, label {
+    color: black;
+}
+
+html, body, #game_canvas {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
