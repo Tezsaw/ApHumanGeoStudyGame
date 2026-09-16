@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-#game_canvas {
+#game_canvas, .inline {
     display: inline;
 }
 

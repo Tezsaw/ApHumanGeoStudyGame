@@ -1,0 +1,16 @@
+{
+    "africa": {
+        "map": "Africa.jpg",
+        "title": "Countries of Africa",
+        "data": {
+
+        }
+    },
+    "world": {
+        "map": "Robinson.png",
+        "title": "Continents, Oceans, and Major World Regions",
+        "data": {
+            
+        }
+    }
+}
