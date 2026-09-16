@@ -6,6 +6,9 @@ let modeSwitchButton = document.getElementById("mode_switch");
 let guesserContainer = document.getElementById("guesser_container");
 let nameGuessInput = document.getElementById("name_guess_input");
 
+const chosenMap = window.location.search.substring(6);
+console.log(chosenMap);
+
 let chosenKey = "Error Loading";
 let inWritingMode = false;
 

@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AP Human Geo Study Game</title>
+        <link rel="icon" href="Robinson.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="canvas_container" class="container">
+            <canvas id="game_canvas" height="450" width="800"></canvas>
+            <h1 id="chosen_place_txt">Loading...</h1>
+        </div>
+        <img src="imgs/Robinson.png" id="map_img" />
+        <script defer src="script.js"></script>
+        <div class="container">
+            <label for="mode_switch">Writing Names Gamemode:&nbsp;</label>
+            <input type="checkbox" name="mode_switch" id="mode_switch" />
+        </div>
+        <div class="container" id="guesser_container" style="display: none;">
+            <input type="text" id="name_guess_input" placeholder="What is that place called?" />
+        </div>
+    </body>
+</html>

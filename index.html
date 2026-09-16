@@ -2,22 +2,16 @@
 <html>
     <head>
         <title>AP Human Geo Study Game</title>
-        <link rel="icon" href="Robinson.png" type="image/x-icon" />
+        <link rel="icon" href="imgs/Robinson.png" type="image/x-icon" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div id="canvas_container" class="container">
-            <canvas id="game_canvas" height="450" width="800"></canvas>
-            <h1 id="chosen_place_txt">Loading...</h1>
-        </div>
-        <img src="Robinson.png" id="map_img" />
-        <script defer src="script.js"></script>
         <div class="container">
-            <label for="mode_switch">Writing Names Gamemode:&nbsp;</label>
-            <input type="checkbox" name="mode_switch" id="mode_switch" />
-        </div>
-        <div class="container" id="guesser_container" style="display: none;">
-            <input type="text" id="name_guess_input" placeholder="What is that place called?" />
+            <h1>Select a Gamemode</h1>
+            <ul>
+                <li><a href="/game.html?mode=world">Continents, Oceans, and Major World Regions</a></li>
+                <li><a href="/game.html?mode=africa">Countries of Africa</a></li>
+            </ul>
         </div>
     </body>
 </html>
